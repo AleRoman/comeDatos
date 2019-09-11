@@ -1,0 +1,7 @@
+{
+  "name": "comeDatos",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
