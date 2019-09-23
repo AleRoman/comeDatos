@@ -6,4 +6,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-item *ngFor="let tramite of tramites">
+    <ion-label>{{tramite.nombre}}</ion-label>
+  </ion-item>
+</ion-content>
